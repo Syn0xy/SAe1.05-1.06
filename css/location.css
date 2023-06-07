@@ -1,0 +1,46 @@
+#milieu{
+    margin-top: 0rem;
+    width: 100%;
+    background-color: #969696;
+    color: white;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+
+
+#enavant{
+    margin-top: 55px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#enavant>div{
+    font-size: 1.1rem;
+    width: 18rem;
+    margin-top: 55px;
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+#enavant img{
+    height: 17rem;
+    width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body>p:hover, h1:hover{
+    cursor: default;
+}
+#enavant>div:hover, #bas>div:last-child>div:last-child>div:hover, #bas>div:first-child>div:first-child>div:hover,#voirplus>div:hover, #voirplus>div:hover>h1{
+    cursor: pointer;
+}
+

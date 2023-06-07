@@ -1,0 +1,121 @@
+/* Positionement fixed*/
+.index{
+    position: fixed;
+    z-index: 9;
+    height: 3.3rem;
+    width: 3.3rem;
+    margin-left: 0.7rem;
+    margin-top: 3rem;
+    background-color: #555;
+    border-style: solid;
+    border-width: .4rem;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+}
+.index:hover{
+    background-color: #eee;
+    color: #555;
+    cursor: pointer;
+}
+.liste{
+    position: fixed;
+    z-index: 8;
+    background-color: #eee;
+    height: auto;
+    width: auto;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    padding-right: 2rem;
+    border-style: solid;
+    border-width: .4rem;
+    border-color: #555;
+    display: none;
+}
+.liste li{
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+}
+.liste li:hover{
+    cursor: pointer;
+}
+.poserListe{
+    background-color: #555;
+    color: #eee;
+    list-style-type: none;
+    border: .3rem solid #555;
+    padding: 0rem 1.2rem;
+    padding-bottom: .2rem;
+    border-radius: 7rem;
+}
+.poserListe:hover{
+    background-color: #eee;
+    color: #555;
+}
+
+
+
+
+.titre{
+    width: 100%;
+    background-color: #eee;
+    margin-bottom: 6rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+
+
+#principal>div:not(.titre):not(.poser){
+    width: 100%;
+    margin-bottom: 9rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#principal div:not(.titre):not(.poser)>div:first-child{
+    width: 85%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.3rem;
+}
+#principal div:not(.titre):not(.poser)>div:last-child{
+    width: 75%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+
+
+.poser{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poser>div{
+    width: auto;
+    background-color: #555;
+    border-style: solid;
+    border-color: #555;
+    border-width: .3rem;
+    color: #eee;
+    font-size: 1.7rem;
+    padding: 0rem 2.3rem;
+    margin-bottom: 4rem;
+    border-radius: 40rem;
+}
+.poser>div:hover{
+    cursor: pointer;
+    color: #555;
+    background-color: white;
+}

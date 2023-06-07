@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9ffcc;
+  }
+  
+  /* Titres */
+  .titre, .low {
+    text-align: center;
+    color: #66cc66;
+  }
+  .titre{
+    margin-top: 5rem;
+  }
+  
+  /* Formulaires */
+  form {
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #66cc66;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 5rem;
+  }
+  
+  /* Options de sélection */
+  input[type="radio"] {
+    margin: 0 10px;
+  }
+  
+  /* Boutons */
+  input[type="submit"] {
+    background-color: #66cc66;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4d994d;
+  }

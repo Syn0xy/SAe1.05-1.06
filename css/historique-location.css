@@ -1,0 +1,60 @@
+#titre{
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+table {
+    width: 70%;
+    margin-bottom: 7rem;
+    margin-left: 15%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    height: 5rem;
+    text-align: center;
+}
+  
+tr:nth-child(even) {
+    background-color: #eeeeee; 
+}
+  
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.indispo{
+    background-color: #ccc;
+}
+  
+.photo {
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.autopartage{
+    background-color: #5f5600;
+}

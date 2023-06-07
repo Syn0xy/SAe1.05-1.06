@@ -1,0 +1,297 @@
+.slider{
+    height:  auto;
+    width: 100%;
+}
+
+.img_slider{
+    transition: opacity 0.5s;
+    object-fit: cover;
+    height: 44.5rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slider>img:nth-child(2),.slider>img:nth-child(3){
+    opacity: 0;
+}
+
+.suivant, .precedent{
+    color: white;
+    font-size: 4.2rem;
+    position: absolute;
+    top: 24rem;
+    transform: translateY(-50%);
+}
+
+.suivant:hover, .precedent:hover{
+    cursor: pointer;
+}
+
+.suivant{
+    right: 1rem;
+}
+
+.precedent{
+    left: 1rem;
+}
+
+.slider>div:last-child{
+    width: 20%;
+    font-size: 1.3rem;
+    top: 40rem;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    left: calc(40% + 5px);
+}
+
+.slider>div:last-child>div{
+    display: flex;
+    margin-top: 0px;
+    color: rgba(255, 255, 255, 0.496);
+    margin-left: 0.25rem;
+    float: left;
+}
+
+.slider>div:last-child>div:hover{
+    cursor: pointer;
+}
+
+.slider>div:last-child>div:first-child{
+    margin-top: -2px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.slider>div:last-child>div:hover{
+    color: white;
+}
+
+
+#annonce{
+    font-family: Ubisoft Sans;
+    margin-top: 44rem;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+#haut{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#haut h1{
+    font-size: 3rem;
+}
+#haut>div{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#haut>div>div{
+    border: solid 1px rgb(176, 176, 176);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#haut>div>div>div:first-child{
+    display: flex;
+    height: 50rem;
+    background-color: #fff889;
+}
+#haut>div>div>div:last-child{
+    display: flex;
+    align-items: center;
+}
+#haut>div>div>div:last-child:hover{
+    cursor: pointer;
+}
+#haut>div>div>img{
+    width: 100%;
+}
+#milieu{
+    margin-top: 7rem;
+    width: 100%;
+    background-color: #969696;
+    color: white;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+
+
+#enavant{
+    margin-top: 55px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#enavant>div{
+    font-size: 1.1rem;
+    width: 18rem;
+    margin-top: 55px;
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+#enavant img{
+    height: 17rem;
+    width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#voirplus{
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+}
+#voirplus>div{
+    width: auto;
+    padding: 0rem 3rem;
+    background-color: #818181;
+    border-radius: 4.5rem;
+    text-align: center;
+    border-style: solid;
+    border-color: #818181;
+}
+#voirplus h1{
+    color: rgb(239, 239, 239);
+    font-size: 2.1rem;
+    margin-top: .7rem;
+}
+#voirplus>div:hover, #voirplus>div:hover>h1{
+    background-color: white;
+    color: #818181;
+    cursor: pointer;
+}
+#bas{
+    width: 100%;
+    height: 70rem;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+#bas>div{
+    width: 85%;
+    margin-left: 8.5%;
+}
+#bas>div>div{
+    position: relative;
+    width: 49%;
+    float: left;
+    margin-top: 85px;
+    height: 22rem;
+}
+#bas>div:first-child>div:first-child{
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+#bas>div:first-child>div:first-child>h4, #bas>div:last-child>div:last-child>h4{
+    font-size: 1.9rem;
+    align-self: center;
+    
+}
+#bas>div:first-child>div:first-child>h5, #bas>div:last-child>div:last-child>h5{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+#bas>div:first-child>div:first-child>div{
+    background-color: #323232;
+    border-radius: 30rem;
+    padding: .3rem 1.2rem;
+    border-style: solid;
+    border-color: #323232;
+    width: auto;
+    height: 1.8rem;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 8%;
+}
+#bas>div:first-child>div:first-child>div h5{
+    font-size: 1.8rem;
+    color: #eee;
+    text-align: center;
+    margin-top: -.22rem;
+}
+#bas>div:first-child>div:first-child>div:hover{
+    background-color: #eee;
+    border-color: #323232;
+}
+#bas>div:first-child>div:first-child>div:hover>h5{
+    color: #323232;
+}
+#bas>div:first-child>div:last-child{
+    background-image: url("https://osm.cylex-international.com/osm/staticmaplite/staticmap.php?center=48.85175,2.4180787&zoom=15&size=xy&maptype=tm&markers=48.85175,2.4180787,marker-34");
+    background-size: cover;
+}
+
+#bas>div:last-child>div:first-child{
+    background-image: url("https://citiz.coop/bundles/cooptilleulsportail/img/retina_citiz_default.jpg");
+    background-size: cover;
+}
+#bas>div:last-child>div:last-child{
+    background-color: #323232;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+#bas>div:last-child>div:last-child>div{
+    background-color: #eee;
+    border-style: solid;
+    border-color: #eee;
+    width: auto;
+    height: 1.8rem;
+    border-radius: 30rem;
+    padding: .3rem 1.2rem;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 8%;
+}
+#bas>div:last-child>div:last-child>div h5{
+    font-size: 1.8rem;
+    color: #323232;
+    text-align: center;
+    margin-top: -.22rem;
+}
+#bas>div:last-child>div:last-child>div h5:last-child{
+    display: none;
+}
+#bas>div:last-child>div:last-child>div:hover{
+    background-color: #323232;
+    border-color: #eee;
+}
+#bas>div:last-child>div:last-child>div:hover>h5{
+    color: #eee;
+}
+
+
+
+body>p:hover, h1:hover{
+    cursor: default;
+}
+#enavant>div:hover, #bas>div:last-child>div:last-child>div:hover, #bas>div:first-child>div:first-child>div:hover,#voirplus>div:hover, #voirplus>div:hover>h1{
+    cursor: pointer;
+}
+

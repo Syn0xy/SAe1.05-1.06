@@ -1,0 +1,47 @@
+section{
+    margin-top: 4rem;
+    display: flex;
+    width: 30%;
+    margin-left: 35%;
+    justify-content: space-around;
+}
+
+section h1,section h2 {
+    color: #66b3ff;
+    text-align: center;
+  }
+  
+  /* Formulaires */
+  form {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section>div:last-child{
+    border-left: 1px solid lightgrey;
+    margin-bottom: 10rem;
+    padding-left: 30px;
+  }
+  
+  /* Boutons */
+  .bouton {
+    background-color: #66b3ff;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 1rem;
+  }
+  
+  .bouton:hover {
+    background-color: #4d94ff;
+    cursor: pointer;
+  }
